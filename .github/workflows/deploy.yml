@@ -33,9 +33,8 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          VITE_SITE_TITLE: 云汇导航
           VITE_SITE_DESCRIPTION: 精选优质网站，分类导航，一站式直达
-          VITE_ADMIN_PASSWORD: YhNav2026!
+          VITE_ADMIN_PASSWORD: 13142857
           VITE_GITHUB_OWNER: laibnizi
           VITE_GITHUB_REPO: GzNav
           VITE_GITHUB_BRANCH: main
