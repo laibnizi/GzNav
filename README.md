@@ -1,4 +1,4 @@
-# 🌐 云汇导航 (YunHui Nav)
+# 🌐 AI导航 (YunHui Nav)
 
 一个简洁、美观、响应式的**网址导航网站**（综合门户），类似 yinghezhinan.com。
 基于开源项目 **[猫猫导航 / lh-nav](https://github.com/xtgm/lh-nav)**（原作者 [maodeyu180/mao_nav](https://github.com/maodeyu180/mao_nav)）改造而来，在保留其「前端 + 可视化后台 + GitHub 数据存储」架构的基础上，做了品牌化重构并内置了一套更贴近综合门户的默认数据。
