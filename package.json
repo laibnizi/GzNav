@@ -1,18 +1,18 @@
 {
-  "name": "yunhui-nav",
+  "name": "gznav",
   "version": "1.0.0",
   "description": "🌐 一个简洁美观的网址导航网站（综合门户），支持分类管理、可视化后台与 GitHub 数据存储。基于 lh-nav / 猫猫导航 改造。",
   "private": false,
   "type": "module",
   "author": "Your Name <your.email@example.com>",
   "license": "MIT",
-  "homepage": "https://github.com/your-username/yunhui-nav#readme",
+  "homepage": "https://github.com/laibnizi/GzNav#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-username/yunhui-nav.git"
+    "url": "git+https://github.com/laibnizi/GzNav.git"
   },
   "bugs": {
-    "url": "https://github.com/your-username/yunhui-nav/issues"
+    "url": "https://github.com/laibnizi/GzNav/issues"
   },
   "keywords": [
     "navigation",

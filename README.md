@@ -32,7 +32,7 @@
 ## 📂 目录结构
 
 ```
-yunhui-nav/
+GzNav/
 ├── public/                 # 静态资源（favicon、logo、站点图标）
 ├── src/
 │   ├── apis/               # GitHub API 交互（读取/保存导航数据、上传 Logo）
