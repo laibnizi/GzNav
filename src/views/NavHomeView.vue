@@ -360,7 +360,7 @@ const handleSearch = () => {
 
 const handleImageError = (event) => {
   if (event.target.src.includes('?')) {
-    event.target.src = '/favicon.ico'
+    event.target.src = '/favicon.png'
   }
   event.target.onerror = null
 }
