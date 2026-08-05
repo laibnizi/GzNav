@@ -161,17 +161,42 @@ export function useGitHubAPI() {
     try {
       const file = await getFileContent('src/mock/mock_data.js')
 
-      // 解析JavaScript文件内容
-      const content = file.content
-      const exportMatch = content.match(/export const mockData = ({[\s\S]*})/)
+      // 解析JavaScript文件内容（兼容 JS 表达式 与 合法 JSON 两种格式）
+      // 注意：来源仅限我们自己仓库的 mock_data.js，可信任执行
+      let content = file.content
+      // 末尾空白去掉
+      content = content.replace(/\s+$/, '')
 
+      const exportMatch = content.match(/export const mockData = ([\s\S]+)$/)
       if (!exportMatch) {
         throw new Error('无法解析mock_data.js文件格式')
       }
-
-      // 安全地解析JSON内容
       const dataString = exportMatch[1]
-      const data = JSON.parse(dataString)
+
+      let data
+      try {
+        // 尝试按合法 JSON 解析（admin 保存后写回的就是这种格式）
+        data = JSON.parse(dataString)
+      } catch (_jsonErr) {
+        // mock_data.js 用 JS 对象语法（无引号键 / 单引号 / fav 帮助函数）—— 在沙箱里执行表达式
+        // 先把 `fav('domain')` 调用替换为它的字符串结果，避免依赖外部环境
+        const favDefMatch = content.match(/const fav\s*=\s*\(domain\)\s*=>\s*`([^`]+)`/)
+        const header = favDefMatch
+          ? (() => {
+              const tpl = favDefMatch[1]
+              return dataString.replace(
+                /fav\(\s*['"]([^'"]+)['"]\s*\)/g,
+                (_f, domain) => JSON.stringify(tpl.replace(/\$\{domain\}/g, domain))
+              )
+            })()
+          : dataString
+        const code = `return (${header});`
+        data = new Function(code)()
+      }
+
+      if (!data || typeof data !== 'object') {
+        throw new Error('mock_data 解析后不是有效对象')
+      }
 
       return {
         ...data,
