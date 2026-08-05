@@ -43,3 +43,9 @@ preview.log
 
 # Vite 构建临时文件
 vite.config.js.timestamp-*.mjs
+
+# 本地/沙箱构建产物与临时目录
+dist_new/
+
+# 本地工作记忆（不进公开仓库）
+.workbuddy/
