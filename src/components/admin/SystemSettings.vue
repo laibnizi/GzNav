@@ -179,13 +179,13 @@
         <div class="config-item">
           <label>GitHub 仓库所有者 (VITE_GITHUB_OWNER):</label>
           <div class="config-value">
-            <span class="value-display">{{ envConfig.githubOwner || '默认: maodeyu180' }}</span>
+            <span class="value-display">{{ envConfig.githubOwner || '默认: 你的 GitHub 用户名' }}</span>
           </div>
         </div>
         <div class="config-item">
           <label>GitHub 仓库名称 (VITE_GITHUB_REPO):</label>
           <div class="config-value">
-            <span class="value-display">{{ envConfig.githubRepo || '默认: mao_nav' }}</span>
+            <span class="value-display">{{ envConfig.githubRepo || '默认: yunhui-nav' }}</span>
           </div>
         </div>
         <div class="config-item">
@@ -359,7 +359,7 @@ const getSystemInfo = () => {
 const loadWebsiteSettings = async () => {
   try {
     const data = await loadCategoriesFromGitHub()
-    currentTitle.value = data.title || '猫猫导航'
+    currentTitle.value = data.title || '云汇导航'
     websiteTitle.value = currentTitle.value
 
     // 加载搜索引擎设置
@@ -367,8 +367,8 @@ const loadWebsiteSettings = async () => {
     searchEngine.value = currentSearchEngine.value
   } catch (error) {
     console.error('加载网站设置失败:', error)
-    currentTitle.value = '猫猫导航'
-    websiteTitle.value = '猫猫导航'
+    currentTitle.value = '云汇导航'
+    websiteTitle.value = '云汇导航'
     currentSearchEngine.value = 'bing'
     searchEngine.value = 'bing'
   }
