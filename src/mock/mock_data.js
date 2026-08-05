@@ -1056,6 +1056,5 @@ export const mockData = {
       ]
     }
   ],
-  "title": "狗屁导航",
-  "_fileSha": "2eff5dada8c9b5db3ef3ade4f0e5b66c88acc976"
+  "title": "狗屁导航"
 }
