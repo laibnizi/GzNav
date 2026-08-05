@@ -4,7 +4,7 @@ export const mockData = {
       "id": "recommend",
       "name": "常用推荐",
       "icon": "🔥",
-      "order": 0,
+      "order": 11,
       "sites": [
         {
           "id": "baidu",
@@ -1044,7 +1044,7 @@ export const mockData = {
       "id": "category-1785926821930",
       "icon": "🔧",
       "name": "AIAIAI",
-      "order": 1,
+      "order": 0,
       "sites": [
         {
           "id": "site-1785926892416",
@@ -1056,7 +1056,5 @@ export const mockData = {
       ]
     }
   ],
-  "title": "狗屁导航",
-  "_fileSha": "49af574bc10f615dd3b2f1640b05673be9f0597d",
-  "search": "google"
+  "title": "狗屁导航"
 }
