@@ -40,3 +40,6 @@ lh-nav.zip
 npm_install.log
 preview.log
 
+
+# Vite 构建临时文件
+vite.config.js.timestamp-*.mjs
