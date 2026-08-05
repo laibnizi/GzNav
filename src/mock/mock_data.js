@@ -7,34 +7,6 @@ export const mockData = {
       "order": 11,
       "sites": [
         {
-          "id": "baidu",
-          "name": "百度",
-          "url": "https://www.baidu.com",
-          "description": "全球最大中文搜索引擎",
-          "icon": "https://icons.duckduckgo.com/ip3/www.baidu.com.ico"
-        },
-        {
-          "id": "bilibili",
-          "name": "哔哩哔哩",
-          "url": "https://www.bilibili.com",
-          "description": "国内知名视频弹幕网站",
-          "icon": "https://icons.duckduckgo.com/ip3/www.bilibili.com.ico"
-        },
-        {
-          "id": "taobao",
-          "name": "淘宝",
-          "url": "https://www.taobao.com",
-          "description": "阿里巴巴旗下网购零售平台",
-          "icon": "https://icons.duckduckgo.com/ip3/www.taobao.com.ico"
-        },
-        {
-          "id": "zhihu",
-          "name": "知乎",
-          "url": "https://www.zhihu.com",
-          "description": "中文互联网高质量问答社区",
-          "icon": "https://icons.duckduckgo.com/ip3/www.zhihu.com.ico"
-        },
-        {
           "id": "github",
           "name": "GitHub",
           "url": "https://github.com",
@@ -1056,7 +1028,5 @@ export const mockData = {
       ]
     }
   ],
-  "title": "狗屁导航",
-  "_fileSha": "2eff5dada8c9b5db3ef3ade4f0e5b66c88acc976",
-  "search": "google"
+  "title": "狗屁导航"
 }
