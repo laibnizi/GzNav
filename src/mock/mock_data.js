@@ -4,7 +4,7 @@ export const mockData = {
       "id": "search",
       "name": "每天常用",
       "icon": "💻",
-      "order": 1,
+      "order": 0,
       "sites": [
         {
           "id": "google",
@@ -19,6 +19,70 @@ export const mockData = {
           "url": "https://www.lkong.com/forum/15",
           "description": "",
           "icon": "https://www.faviconextractor.com/favicon/www.lkong.com"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "name": "AI 工具",
+      "icon": "🤖",
+      "order": 1,
+      "sites": [
+        {
+          "id": "chatgpt2",
+          "name": "ChatGPT",
+          "url": "https://chat.openai.com",
+          "description": "OpenAI 对话模型",
+          "icon": "https://icons.duckduckgo.com/ip3/chat.openai.com.ico"
+        },
+        {
+          "id": "claude",
+          "name": "Claude",
+          "url": "https://claude.ai",
+          "description": "Anthropic AI 助手",
+          "icon": "https://icons.duckduckgo.com/ip3/claude.ai.ico"
+        },
+        {
+          "id": "wenxin",
+          "name": "文心一言",
+          "url": "https://yiyan.baidu.com",
+          "description": "百度大模型",
+          "icon": "https://icons.duckduckgo.com/ip3/yiyan.baidu.com.ico"
+        },
+        {
+          "id": "tongyi",
+          "name": "通义千问",
+          "url": "https://tongyi.aliyun.com",
+          "description": "阿里大模型",
+          "icon": "https://icons.duckduckgo.com/ip3/tongyi.aliyun.com.ico"
+        },
+        {
+          "id": "midjourney",
+          "name": "Midjourney",
+          "url": "https://www.midjourney.com",
+          "description": "AI 绘画",
+          "icon": "https://icons.duckduckgo.com/ip3/www.midjourney.com.ico"
+        },
+        {
+          "id": "site-1785992132554",
+          "name": "mindvide生图",
+          "url": "https://www.mindvideo.ai/zh/image-to-image/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/www.mindvideo.ai"
+        },
+        {
+          "id": "site-1785992233421",
+          "name": "椒盐生图",
+          "url": "https://jiaotu.ai/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/jiaotu.ai"
+        },
+        {
+          "id": "site-1785992316247",
+          "name": "中转安",
+          "url": "https://anpin.ai/keys",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/anpin.ai"
         }
       ]
     },
@@ -69,7 +133,7 @@ export const mockData = {
       "id": "edu",
       "name": "教育学习",
       "icon": "📚",
-      "order": 10,
+      "order": 3,
       "sites": [
         {
           "id": "icourse",
@@ -119,7 +183,7 @@ export const mockData = {
       "id": "game",
       "name": "游戏娱乐",
       "icon": "🎮",
-      "order": 12,
+      "order": 4,
       "sites": [
         {
           "id": "steam",
@@ -176,7 +240,7 @@ export const mockData = {
       "id": "dev",
       "name": "开发技术",
       "icon": "💻",
-      "order": 13,
+      "order": 5,
       "sites": [
         {
           "id": "github2",
@@ -237,74 +301,10 @@ export const mockData = {
       ]
     },
     {
-      "id": "ai",
-      "name": "AI 工具",
-      "icon": "🤖",
-      "order": 14,
-      "sites": [
-        {
-          "id": "chatgpt2",
-          "name": "ChatGPT",
-          "url": "https://chat.openai.com",
-          "description": "OpenAI 对话模型",
-          "icon": "https://icons.duckduckgo.com/ip3/chat.openai.com.ico"
-        },
-        {
-          "id": "claude",
-          "name": "Claude",
-          "url": "https://claude.ai",
-          "description": "Anthropic AI 助手",
-          "icon": "https://icons.duckduckgo.com/ip3/claude.ai.ico"
-        },
-        {
-          "id": "wenxin",
-          "name": "文心一言",
-          "url": "https://yiyan.baidu.com",
-          "description": "百度大模型",
-          "icon": "https://icons.duckduckgo.com/ip3/yiyan.baidu.com.ico"
-        },
-        {
-          "id": "tongyi",
-          "name": "通义千问",
-          "url": "https://tongyi.aliyun.com",
-          "description": "阿里大模型",
-          "icon": "https://icons.duckduckgo.com/ip3/tongyi.aliyun.com.ico"
-        },
-        {
-          "id": "doubao",
-          "name": "豆包",
-          "url": "https://www.doubao.com",
-          "description": "字节跳动 AI",
-          "icon": "https://icons.duckduckgo.com/ip3/www.doubao.com.ico"
-        },
-        {
-          "id": "zhipu",
-          "name": "智谱清言",
-          "url": "https://chatglm.cn",
-          "description": "智谱 AI",
-          "icon": "https://icons.duckduckgo.com/ip3/chatglm.cn.ico"
-        },
-        {
-          "id": "midjourney",
-          "name": "Midjourney",
-          "url": "https://www.midjourney.com",
-          "description": "AI 绘画",
-          "icon": "https://icons.duckduckgo.com/ip3/www.midjourney.com.ico"
-        },
-        {
-          "id": "xinghuo",
-          "name": "讯飞星火",
-          "url": "https://xinghuo.xfyun.cn",
-          "description": "讯飞大模型",
-          "icon": "https://icons.duckduckgo.com/ip3/xinghuo.xfyun.cn.ico"
-        }
-      ]
-    },
-    {
       "id": "design",
       "name": "设计创意",
       "icon": "🎨",
-      "order": 15,
+      "order": 6,
       "sites": [
         {
           "id": "figma",
@@ -354,7 +354,7 @@ export const mockData = {
       "id": "cloud",
       "name": "云服务",
       "icon": "☁️",
-      "order": 16,
+      "order": 7,
       "sites": [
         {
           "id": "aliyun",
@@ -411,7 +411,7 @@ export const mockData = {
       "id": "category-1785991549229",
       "icon": "📁",
       "name": "资料网站",
-      "order": 3,
+      "order": 8,
       "sites": [
         {
           "id": "site-1785991656637",
