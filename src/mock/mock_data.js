@@ -2,8 +2,8 @@ export const mockData = {
   "categories": [
     {
       "id": "search",
-      "name": "搜索引擎",
-      "icon": "🔍",
+      "name": "每天常用",
+      "icon": "💻",
       "order": 1,
       "sites": [
         {
