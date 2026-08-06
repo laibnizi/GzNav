@@ -7,13 +7,6 @@ export const mockData = {
       "order": 1,
       "sites": [
         {
-          "id": "baidu2",
-          "name": "百度",
-          "url": "https://www.baidu.com",
-          "description": "中文搜索引擎",
-          "icon": "https://icons.duckduckgo.com/ip3/www.baidu.com.ico"
-        },
-        {
           "id": "google",
           "name": "Google",
           "url": "https://www.google.com",
@@ -21,48 +14,20 @@ export const mockData = {
           "icon": "https://icons.duckduckgo.com/ip3/www.google.com.ico"
         },
         {
-          "id": "bing",
-          "name": "Bing",
-          "url": "https://www.bing.com",
-          "description": "微软搜索引擎",
-          "icon": "https://icons.duckduckgo.com/ip3/www.bing.com.ico"
-        },
-        {
-          "id": "sogou",
-          "name": "搜狗",
-          "url": "https://www.sogou.com",
-          "description": "搜狗搜索引擎",
-          "icon": "https://icons.duckduckgo.com/ip3/www.sogou.com.ico"
-        },
-        {
-          "id": "360",
-          "name": "360搜索",
-          "url": "https://www.so.com",
-          "description": "360 安全搜索引擎",
-          "icon": "https://icons.duckduckgo.com/ip3/www.so.com.ico"
-        },
-        {
-          "id": "duckduckgo",
-          "name": "DuckDuckGo",
-          "url": "https://duckduckgo.com",
-          "description": "注重隐私的搜索引擎",
-          "icon": "https://icons.duckduckgo.com/ip3/duckduckgo.com.ico"
+          "id": "site-1785990867000",
+          "name": "龙空",
+          "url": "https://www.lkong.com/forum/15",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/www.lkong.com"
         }
       ]
     },
     {
       "id": "social",
-      "name": "社交社区",
-      "icon": "💬",
-      "order": 4,
+      "name": "创作写作",
+      "icon": "📚",
+      "order": 2,
       "sites": [
-        {
-          "id": "weibo",
-          "name": "微博",
-          "url": "https://weibo.com",
-          "description": "随时随地发现新鲜事",
-          "icon": "https://icons.duckduckgo.com/ip3/weibo.com.ico"
-        },
         {
           "id": "zhihu2",
           "name": "知乎",
@@ -71,39 +36,32 @@ export const mockData = {
           "icon": "https://icons.duckduckgo.com/ip3/www.zhihu.com.ico"
         },
         {
-          "id": "tieba",
-          "name": "百度贴吧",
-          "url": "https://tieba.baidu.com",
-          "description": "全球最大中文社区",
-          "icon": "https://icons.duckduckgo.com/ip3/tieba.baidu.com.ico"
+          "id": "site-1785991101212",
+          "name": "番茄小说",
+          "url": "https://fanqienovel.com/main/writer/book-manage",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/fanqienovel.com"
         },
         {
-          "id": "xiaohongshu",
-          "name": "小红书",
-          "url": "https://www.xiaohongshu.com",
-          "description": "标记你的生活",
-          "icon": "https://icons.duckduckgo.com/ip3/www.xiaohongshu.com.ico"
+          "id": "site-1785991149159",
+          "name": "作家助手",
+          "url": "https://write.qq.com/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/write.qq.com"
         },
         {
-          "id": "douban2",
-          "name": "豆瓣",
-          "url": "https://www.douban.com",
-          "description": "我们的精神角落",
-          "icon": "https://icons.duckduckgo.com/ip3/www.douban.com.ico"
+          "id": "site-1785991260587",
+          "name": "起点",
+          "url": "https://www.qidian.com/book/1049254745/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/www.qidian.com"
         },
         {
-          "id": "jike",
-          "name": "即刻",
-          "url": "https://web.okjike.com",
-          "description": "年轻世代的兴趣社区",
-          "icon": "https://icons.duckduckgo.com/ip3/web.okjike.com.ico"
-        },
-        {
-          "id": "tianya",
-          "name": "天涯社区",
-          "url": "https://www.tianya.cn",
-          "description": "全球华人网上家园",
-          "icon": "https://icons.duckduckgo.com/ip3/www.tianya.cn.ico"
+          "id": "site-1785991305003",
+          "name": "飞卢小说",
+          "url": "https://b.faloo.com/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/b.faloo.com"
         }
       ]
     },
