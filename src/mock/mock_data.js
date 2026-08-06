@@ -406,6 +406,21 @@ export const mockData = {
           "icon": "https://icons.duckduckgo.com/ip3/cloud.baidu.com.ico"
         }
       ]
+    },
+    {
+      "id": "category-1785991549229",
+      "icon": "📁",
+      "name": "资料网站",
+      "order": 3,
+      "sites": [
+        {
+          "id": "site-1785991656637",
+          "name": "Zlibrary",
+          "url": "https://tw.101ml.by/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/tw.101ml.by"
+        }
+      ]
     }
   ],
   "title": "狗屁导航"
