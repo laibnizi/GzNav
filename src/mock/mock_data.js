@@ -29,6 +29,13 @@ export const mockData = {
       "order": 1,
       "sites": [
         {
+          "id": "site-1786001624282",
+          "name": "DeepSeek",
+          "url": "https://chat.deepseek.com/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/chat.deepseek.com"
+        },
+        {
           "id": "chatgpt2",
           "name": "ChatGPT",
           "url": "https://chat.openai.com",
