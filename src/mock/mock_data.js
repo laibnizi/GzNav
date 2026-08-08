@@ -133,6 +133,13 @@ export const mockData = {
           "url": "https://b.faloo.com/",
           "description": "",
           "icon": "https://www.faviconextractor.com/favicon/b.faloo.com"
+        },
+        {
+          "id": "site-1786198561699",
+          "name": "纵横",
+          "url": "https://www.zongheng.com/rank?nav=default",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/www.zongheng.com"
         }
       ]
     },
